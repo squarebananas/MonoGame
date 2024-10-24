@@ -16,6 +16,7 @@ namespace MonoGame.Effect
                 case "float":
                     return EffectObject.D3DXPARAMETER_TYPE.FLOAT;
                 case "int":
+                case "uint":
                     return EffectObject.D3DXPARAMETER_TYPE.INT;
                 case "bool":
                     return EffectObject.D3DXPARAMETER_TYPE.BOOL;
